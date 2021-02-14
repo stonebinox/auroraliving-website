@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
+import { Footer } from "./Footer";
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
           broadcast their messages more efficiently.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
