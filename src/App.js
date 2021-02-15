@@ -50,7 +50,7 @@ function App() {
       <div className="content-holder">
         <hr />
         <p className="about">
-          Established in 2019, <strong>Aurora Designs</strong> is headquartered
+          Established in 2020, <strong>Aurora Designs</strong> is headquartered
           in Bangalore, India. As a remote company, we have worked with clients
           from all over the world including companies and clients from the USA,
           Australia, Jordan, India, and more.
