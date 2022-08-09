@@ -56,11 +56,12 @@ function App() {
           Australia, Jordan, India, and more.
         </p>
         <p className="about">
-          As a full service <strong>digital marketing company</strong>, we
-          provide web design and development, internet marketing, social media,
-          SEO, email marketing, content writing, web hosting, and app
-          development services to business large and small that are looking to
-          broadcast their messages more efficiently.
+          We provide <strong>web design and development</strong>,{" "}
+          <strong>internet marketing</strong>, <strong>social media</strong>,{" "}
+          <strong>SEO</strong>, <strong>email marketing</strong>,{" "}
+          <strong>content writing</strong>, <strong>web hosting</strong>, and{" "}
+          <strong>app development services</strong> to businesses large and
+          small that are looking to broadcast their messages more efficiently.
         </p>
       </div>
       <Footer />
