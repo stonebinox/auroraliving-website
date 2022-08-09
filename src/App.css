@@ -1,5 +1,5 @@
 body {
-  background-color: #e6e6e6;
+  background-color: #202020;
 }
 
 .App {
@@ -17,7 +17,7 @@ body {
 }
 
 p {
-  color: #666;
+  color: #999;
   font-size: 18px;
   max-width: 50%;
 }
@@ -39,7 +39,7 @@ p.about {
 }
 
 .App-link {
-  color: #666;
+  color: #999;
   text-decoration: none;
   font-family: "Courier New", Courier, monospace;
   letter-spacing: 1px;
@@ -53,7 +53,8 @@ p.about {
 
 hr {
   height: 0;
-  border-top: 1px solid #dedede;
+  border: 0;
+  border-bottom: 1px solid #444;
   width: 70%;
 }
 
@@ -69,9 +70,9 @@ hr {
 .circle {
   position: fixed;
   border-radius: 50%;
-  background: white;
+  background: #333;
   animation: ripple 15s infinite;
-  box-shadow: 0px 0px 1px 0px #efefef;
+  box-shadow: 0px 0px 1px 0px #666;
 }
 
 .small {

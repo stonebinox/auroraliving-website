@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./logo-white.png";
 import "./App.css";
 import { Footer } from "./Footer";
 
