@@ -1,8 +1,18 @@
+import { useEffect, useState } from "react";
+
 import logo from "./logo-white.png";
 import "./App.css";
 import { Footer } from "./Footer";
 
 function App() {
+  const [lights, setLights] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLights("true");
+    }, 3000);
+  }, []);
+
   return (
     <div className="App">
       <div className="circle xxlarge shade1"></div>
@@ -53,16 +63,23 @@ function App() {
           Established in 2020, <strong>Aurora Designs</strong> is headquartered
           in Bangalore, India. As a remote company, we have worked with clients
           from all over the world including companies and clients from the USA,
-          Australia, Jordan, India, and more.
+          Australia, Estonia, Poland, UK, Africa, Jordan, India, and more.
         </p>
-        <p className="about">
-          We provide <strong>web design and development</strong>,{" "}
-          <strong>internet marketing</strong>, <strong>social media</strong>,{" "}
-          <strong>SEO</strong>, <strong>email marketing</strong>,{" "}
-          <strong>content writing</strong>, <strong>web hosting</strong>, and{" "}
-          <strong>app development services</strong> to businesses large and
-          small that are looking to broadcast their messages more efficiently.
-        </p>
+        <hr />
+      </div>
+      <div className="ev-container">
+        <div className="title">What we're working on currently</div>
+        <div className="subtitle">Electric Mobility Solutions</div>
+        <div className="headlight-holder">
+          <div className="headlight-outer">
+            <div className="headlight-inner" />
+            <div className="light" on={lights} />
+          </div>
+          <div className="headlight-outer">
+            <div className="headlight-inner" />
+            <div className="light" on={lights} />
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

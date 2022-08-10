@@ -1,5 +1,17 @@
+@font-face {
+  src: url('./fonts/Lato-Regular.ttf');
+  font-family: 'Regular';
+}
+
+@font-face {
+  src: url('./fonts/BebasNeue-Regular.ttf');
+  font-family: 'Bebas';
+}
+
 body {
   background-color: #202020;
+  font-family: 'Regular', sans-serif;
+  letter-spacing: -0.25px;
 }
 
 .App {
@@ -18,7 +30,7 @@ body {
 
 p {
   color: #999;
-  font-size: 18px;
+  font-size: 20px;
   max-width: 50%;
 }
 
@@ -113,6 +125,7 @@ hr {
 .shade1 {
   opacity: 0.2;
 }
+
 .shade2 {
   opacity: 0.5;
 }
@@ -127,6 +140,70 @@ hr {
 
 .shade5 {
   opacity: 0.9;
+}
+
+.title {
+  font-family: 'Bebas', sans-serif;
+  font-size: 44px;
+  color: #efefef;
+}
+
+.subtitle {
+  font-weight: bold;
+  font-size: 28px;
+  color: #efefef;
+}
+
+.ev-container {
+  background: linear-gradient(180deg, rgba(32,32,32,1) 0%, rgba(0,0,0,1) 30%, rgba(10,10,10,1) 70%, rgba(32,32,32,1) 100%);
+  width: 100%;
+  margin-top: 32px;
+}
+
+.headlight-holder {
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; 
+  align-items: center;
+  max-width: 400px;
+  margin: 64px auto;
+}
+
+.headlight-outer {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(209, 209, 209, 0.4);
+  border-radius: 40px;
+  -webkit-filter: blur(5px);
+  filter: blur(2px);
+}
+
+.headlight-outer > .headlight-inner {
+  width: 20px;
+  height: 20px;
+  background-color: #666;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.headlight-outer > .light {
+  width: 160px;
+  height: 160px;
+  border-radius: 120px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: radial-gradient(circle closest-side, #fff, transparent);
+  position: absolute;
+  margin-top: -110px;
+  margin-left: -50px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.headlight-outer > .light[on="true"] {
+  -webkit-transform: scale(0);
+  transform: scale(1);
 }
 
 @keyframes ripple {
@@ -175,5 +252,13 @@ p.mobile {
 
   p.mobile {
     display: block;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 22px;
   }
 }
