@@ -158,6 +158,7 @@ hr {
   background: linear-gradient(180deg, rgba(32,32,32,1) 0%, rgba(0,0,0,1) 30%, rgba(10,10,10,1) 70%, rgba(32,32,32,1) 100%);
   width: 100%;
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .headlight-holder {
@@ -167,7 +168,7 @@ hr {
   justify-content: space-around; 
   align-items: center;
   max-width: 400px;
-  margin: 64px auto;
+  margin: 16px auto;
 }
 
 .headlight-outer {
@@ -192,7 +193,7 @@ hr {
   height: 160px;
   border-radius: 120px;
   -webkit-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
   background: radial-gradient(circle closest-side, #fff, transparent);
   position: absolute;
   margin-top: -110px;
@@ -201,8 +202,8 @@ hr {
   transform: scale(0);
 }
 
-.headlight-outer > .light[on="true"] {
-  -webkit-transform: scale(0);
+.headlight-outer[on="true"] > .light {
+  -webkit-transform: scale(1);
   transform: scale(1);
 }
 

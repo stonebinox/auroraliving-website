@@ -71,13 +71,13 @@ function App() {
         <div className="title">What we're working on currently</div>
         <div className="subtitle">Electric Mobility Solutions</div>
         <div className="headlight-holder">
-          <div className="headlight-outer">
+          <div className="headlight-outer" on={lights}>
             <div className="headlight-inner" />
-            <div className="light" on={lights} />
+            <div className="light" />
           </div>
-          <div className="headlight-outer">
+          <div className="headlight-outer" on={lights}>
             <div className="headlight-inner" />
-            <div className="light" on={lights} />
+            <div className="light" />
           </div>
         </div>
       </div>
