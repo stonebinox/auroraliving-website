@@ -63,7 +63,7 @@ function App() {
           Established in 2020, <strong>Aurora Designs</strong> is headquartered
           in Bangalore, India. As a remote company, we have worked with clients
           from all over the world including companies and clients from the USA,
-          Australia, Estonia, Poland, UK, Africa, Jordan, India, and more.
+          Australia, Canada, Estonia, Poland, UK, Africa, Jordan, India, and more.
         </p>
         <hr />
       </div>
