@@ -41,7 +41,7 @@ function App() {
         </p>
         <p className="mobile">
           <a
-            href="mailto:contact@auroraliving.in"
+            href="mailto:contact@auroradesignshq.com"
             className="App-link"
             rel="noopener noreferrer"
           >
