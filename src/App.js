@@ -28,7 +28,7 @@ function App() {
             className="App-link"
             rel="noopener noreferrer"
           >
-            auroradesigns.adm@gmail.com
+            contact@auroradesignshq.com
           </a>{" "}
           &bull;{" "}
           <a
@@ -45,7 +45,7 @@ function App() {
             className="App-link"
             rel="noopener noreferrer"
           >
-            auroradesigns.adm@gmail.com
+            contact@auroradesignshq.com
           </a>
           <br />
           <a
@@ -63,13 +63,22 @@ function App() {
           Established in 2020, <strong>Aurora Designs</strong> is headquartered
           in Bangalore, India. As a remote company, we have worked with clients
           from all over the world including companies and clients from the USA,
-          Australia, Canada, Estonia, Poland, UK, Africa, Jordan, India, and more.
+          Australia, Canada, Estonia, Poland, UK, Africa, Jordan, India, and
+          more.
         </p>
         <hr />
       </div>
       <div className="ev-container">
         <div className="title">What we're working on currently</div>
-        <div className="subtitle">Electric Mobility Solutions</div>
+        <div className="subtitle">
+          <a
+            href="mailto:contact@auroraliving.in"
+            className="App-link"
+            rel="noopener noreferrer"
+          >
+            Meen Motors
+          </a>
+        </div>
         <div className="headlight-holder">
           <div className="headlight-outer" on={lights}>
             <div className="headlight-inner" />
