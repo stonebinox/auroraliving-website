@@ -24,7 +24,7 @@ function App() {
         <img src={logo} className="App-logo" alt="Aurora Living LLP" />
         <p className="desktop">
           <a
-            href="mailto:contact@auroraliving.in"
+            href="mailto:contact@auroradesignshq.com"
             className="App-link"
             rel="noopener noreferrer"
           >
@@ -72,9 +72,10 @@ function App() {
         <div className="title">What we're working on currently</div>
         <div className="subtitle">
           <a
-            href="mailto:contact@auroraliving.in"
+            href="https://meenmotors.in"
             className="App-link"
             rel="noopener noreferrer"
+            target="_blank"
           >
             Meen Motors
           </a>
