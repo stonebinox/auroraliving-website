@@ -72,7 +72,7 @@ function App() {
         <div className="title">What we're working on currently</div>
         <div className="subtitle">
           <a
-            href="#"
+            href="https://www.auroradesignshq.com"
             className="App-link"
             rel="noopener noreferrer"
             target="_blank"
