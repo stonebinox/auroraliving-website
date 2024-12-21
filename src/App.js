@@ -72,12 +72,12 @@ function App() {
         <div className="title">What we're working on currently</div>
         <div className="subtitle">
           <a
-            href="https://meenmotors.in"
+            href="#"
             className="App-link"
             rel="noopener noreferrer"
             target="_blank"
           >
-            Meen Motors
+            Custom Electric Vehicle Software
           </a>
         </div>
         <div className="headlight-holder">
